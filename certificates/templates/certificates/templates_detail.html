@@ -8,7 +8,12 @@
 </head>
 <body>
     <ul>
-        <li><a href="{% url 'Templates_list' %}">Сертификаты</a></li>
+        <li>{{template}}</li>
+        <li>{{template.file}}</li>
+        <li>{{template.headerfont}}</li>
+        <li>{{template.headersize}}</li>
+        <li>{{template.headerln}}</li>
+        <li>{{template.headermtop}}</li>
     </ul>
 </body>
 </html>

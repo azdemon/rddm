@@ -26,11 +26,7 @@ class TemplatesAdmin(admin.ModelAdmin):
             ),
         }),
     )
-    
 
-@admin.register(Fields)
-class TemplatesAdmin(admin.ModelAdmin):
-    pass
 
 
 @admin.register(Events)
